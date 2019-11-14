@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
+.cyan{
+    background-color: cyan;
+}
+.black{
+    background-color: black;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 10vh;
+}
+@media (min-width:1025px){
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.item{
+    height: 45vh;
+    width: 50vw;
+}
+}
+
+@media(max-width:1024px){
+    .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+
+    }
+    .item{
+        height: 22.5vh;
+        width: 100vw;
+}
